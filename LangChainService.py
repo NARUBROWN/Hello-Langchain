@@ -134,7 +134,7 @@ examples = [
     }
 ]
 
-model = ChatOpenAI(temperature=2)
+model = ChatOpenAI(temperature=0)
 
 parser = JsonOutputParser(pydantic_object=LangChainResponse)
 
